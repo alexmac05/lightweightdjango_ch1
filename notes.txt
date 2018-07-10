@@ -1,0 +1,24 @@
+notes.txt from Chapter one <br/>
+
+Chapter one is about making a small django project. A lightweight django project. <br/>
+
+startproject creates new directories and files. <br/>
+
+Step One: Create the view ( sends data to the presentation layer ) to serve the root URL <br/>
+Step Two: Create the proper settings for the minimalist helloworld project <br/>
+Step Three: Create url patterns to serve up the view <br/>
+
+
+
+<br/>
+MTV - Model-Template-View <br/>
+Django's architecture <br/>
+
+WSGI - Web Server Gateway Interface - the specification for how web servers interact with application frameworks <br/>
+
+
+
+Links to read <br/>
+https://docs.djangoproject.com/en/1.8/topics/signing/ <br/>
+http://docs.gunicorn.org/en/19.1/ <br/>
+
