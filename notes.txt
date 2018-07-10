@@ -1,3 +1,5 @@
+Notes for the book LightweightDjango
+
 notes.txt from Chapter one <br/>
 
 Chapter one is about making a small django project. A lightweight django project. <br/>
@@ -30,3 +32,27 @@ https://djangopackages.org/grids/g/configuration/ <br/>
 https://12factor.net/ <br/>
 https://docs.python.org/3/library/os.html#os.environ <br/>
 https://docs.djangoproject.com/en/1.8/ref/settings/#allowed-hosts <br/>
+
+
+notes.txt from Chapter two <br/>
+Stateless Web Application  <br/>
+
+Input validation, caching, templates  <br/>
+Cookies are used to tie requests from the same session together  <br/>
+
+Reusable apps vs. composable services  <br/>
+
+Example: Placeholder Image Server  <br/>
+A typical placeholder image server will take information from the URL like size, color, text to display with image  <br/>
+
+Step One: <br/>
+django-admin.py startproject placeholder --template=project_name<br/>
+
+python placeholder.py runserver<br/>
+
+Questions: Startproject did not create a secret key like the book said it would do. Worth exploring why and could cause issues later <br />
+
+
+
+
+
