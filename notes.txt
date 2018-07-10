@@ -6,6 +6,8 @@ startproject creates new directories and files. <br/>
 
 Step One: Create the view ( sends data to the presentation layer ) to serve the root URL <br/>
 Step Two: Create the proper settings for the minimalist helloworld project <br/>
+Debug and secret key are likely to change between dev, staging, and prod <br/>
+
 Step Three: Create url patterns to serve up the view <br/>
 
 
@@ -16,9 +18,15 @@ Django's architecture <br/>
 
 WSGI - Web Server Gateway Interface - the specification for how web servers interact with application frameworks <br/>
 
+os.getenv(key, default=None)
 
 
 Links to read <br/>
 https://docs.djangoproject.com/en/1.8/topics/signing/ <br/>
 http://docs.gunicorn.org/en/19.1/ <br/>
-
+https://docs.djangoproject.com/en/1.8/ref/settings/ <br/>
+https://code.djangoproject.com/wiki/SplitSettings <br/>
+https://djangopackages.org/grids/g/configuration/ <br/>
+https://12factor.net/ <br/>
+https://docs.python.org/3/library/os.html#os.environ <br/>
+https://docs.djangoproject.com/en/1.8/ref/settings/#allowed-hosts <br/>
