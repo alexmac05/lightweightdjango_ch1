@@ -52,6 +52,16 @@ python placeholder.py runserver<br/>
 
 Questions: Startproject did not create a secret key like the book said it would do. Worth exploring why and could cause issues later <br />
 
+Step Two: <br/>
+Create two views for responses <br/>
+First view: Will render the placeholder images with the height and width value passed in the request <br/>
+Second view: Will have the home page content <br/>
+
+Step Three: <br/>
+URL Patterns <br/>
+-All views need a url pattern matcher. Index matches the empty string.<br/>
+-URL patterns in django use regular expressions to match
+
 
 
 
