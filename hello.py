@@ -3,6 +3,9 @@ import sys
 
 from django.conf import settings
 
+
+
+
 DEBUG = os.environ.get('DEBUG', 'on') == 'on'
 
 #SECRET_KEY = os.environ.get('SECRET_KEY', os.urandom(32))
@@ -25,14 +28,29 @@ settings.configure(
 from django.conf.urls import url
 from django.core.wsgi import get_wsgi_application
 from django.http import HttpResponse
+from django.views.decorators.csrf import csrf_exempt
+
 
 
 def index(request):
     return HttpResponse('Hello World')
 
 
+
+
+@csrf_exempt
+def post(request, *args):
+    response = HttpResponse("Hello API Event Received")
+
+    #parseHelloSignData(request, 'post_APP')
+
+
+    return response
+
+
 urlpatterns = (
     url(r'^$', index),
+    url(r'^post', csrf_exempt(post))
 )
 
 
