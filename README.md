@@ -1,5 +1,5 @@
 # lightweightdjango_ch1
-Chapter 1 of the book Lightweightdjango
+Chapter 1 of the book Lightweightdjango!!
 
 which python3 <br/>
 {for example output}>/usr/local/bin/python3 <br/>
